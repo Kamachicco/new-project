@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Tesla!</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        /* Header banner */
+        .header {
+            text-align: center;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #1d1d1d;
+            font-size: 24px;
+            font-weight: bold;
+            border: 3px solid red;
+            border-radius: 10px;
+            margin: 10px auto;
+            width: 80%;
+        }
+
+        .header span {
+            color: yellow;
+        }
+
+        /* Table styling */
+        .car-table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            font-size: 16px;
+        }
+
+        .car-table th,
+        .car-table td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+
+        .car-table th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .car-table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .car-table .highlight {
+            background-color: #e0e0e0;
+            font-weight: bold;
+        }
+
+        /* Radio button section */
+        .radio-section {
+            width: 80%;
+            margin: 20px auto;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .radio-section label {
+            margin: 0 10px;
+        }
+
+        /* Button styling */
+        .submit-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        /* Image gallery */
+        .car-images {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px auto;
+            width: 80%;
+        }
+
+        .car-images img {
+            width: 200px;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        /* Map styling */
+        .map {
+            width: 80%;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .map img {
+            width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        Добро пожаловать на <span>сайт Tesla!</span>
+    </div>
+
+    <table class="car-table">
+        <thead>
+            <tr>
+                <th>Модель</th>
+                <th>Батарея</th>
+                <th>Разгон 0-100 км/ч</th>
+                <th>Максимальная скорость</th>
+                <th>Запас хода</th>
+                <th>Мощность двигателя</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Tesla Model Y</td>
+                <td>90 кВтч</td>
+                <td>5.0 сек</td>
+                <td>217 км/ч</td>
+                <td>533 км (по циклу WLTP)</td>
+                <td>345 л.с.</td>
+            </tr>
+            <tr class="highlight">
+                <td>Tesla Model X</td>
+                <td>100 кВтч</td>
+                <td>2.8 сек</td>
+                <td>250 км/ч</td>
+                <td>576 км (по циклу WLTP)</td>
+                <td>670 л.с.</td>
+            </tr>
+            <tr>
+                <td>Tesla Model 3</td>
+                <td>60 кВтч</td>
+                <td>5.6 сек</td>
+                <td>225 км/ч</td>
+                <td>679 км (по циклу WLTP)</td>
+                <td>499 л.с.</td>
+            </tr>
+            <tr class="highlight">
+                <td>Tesla Model S</td>
+                <td>100 кВтч</td>
+                <td>3.2 сек</td>
+                <td>250 км/ч</td>
+                <td>634 км (по циклу WLTP)</td>
+                <td>650 л.с.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="radio-section">
+        <p>Выберите цвет машины:</p>
+        <form>
+            <label>\sdfsd
+                <input type="text">
+            </label>
+            <input type="radio" id="modelY" name="model" value="Model Y">
+            <label for="modelY">Tesla Model Y</label>
+            <input type="radio" id="modelX" name="model" value="Model X">
+            <label for="modelX">Tesla Model X</label>
+            <input type="radio" id="model3" name="model" value="Model 3">
+            <label for="model3">Tesla Model 3</label>
+            <input type="radio" id="modelS" name="model" value="Model S">
+            <label for="modelS">Tesla Model S</label>
+            <br><br>
+            <button type="submit" class="submit-button">Отправить</button>
+        </form>
+    </div>
+
+    <div class="car-images">
+        <img src="path/to/tesla-model-y.jpg" alt="Tesla Model Y">
+        <img src="path/to/tesla-model-x.jpg" alt="Tesla Model X">
+        <img src="path/to/tesla-model-3.jpg" alt="Tesla Model 3">
+        <img src="path/to/tesla-model-s.jpg" alt="Tesla Model S">
+    </div>
+
+    <div class="map">
+        <img src="path/to/map-tashkent.jpg" alt="Tesla Service Tashkent">
+    </div>
+
+
+
+
+    <h1 class="kama">добро пожаловать на сайт </h1>
+
+
+</body>
+
+</html>
